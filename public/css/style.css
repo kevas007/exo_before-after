@@ -1,0 +1,84 @@
+#exo1 {
+    text-decoration: none;
+    position: relative;
+}
+
+#exo1:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 auto;
+    left: 0;
+
+    width: 0%;
+    background: orange;
+    transition: 1s;
+}
+
+#exo1:hover:after {
+    width: 5%;
+    background: orange;
+}
+
+/* fin Exo 1 */
+
+/* Exo 2 */
+#exo2 {
+ 
+    text-decoration: none;
+    position: relative;
+}
+
+#exo2:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 auto;
+    margin-left: 20px;
+    left: 0;
+    right: 0;
+    width: 0%;
+    background: orange;
+    transition: 1s;
+}
+
+#exo2:hover:after {
+    width: 4%;
+    background: orange;
+    margin-left: 0px;
+}
+/* fin Exo 2 */
+
+/* Exo 3 */
+#exo3 {
+    text-decoration: none;
+    position: relative;
+}
+
+#exo3:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 auto;
+    left: 0;
+    z-index: -2;
+    width: 0%;
+    background: orange;
+    transition: 1s;
+}
+
+#exo3:hover:after {
+    width: 5%;
+    background-color: orange;
+    height: 100%;
+    z-index: -1;
+
+}
+
+body{
+    margin: 0%;
+}
+/* fin Exo 3 */
